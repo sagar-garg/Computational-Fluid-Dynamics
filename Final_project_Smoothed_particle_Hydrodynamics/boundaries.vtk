@@ -1,0 +1,17 @@
+# vtk DataFile Version 1.0
+lines to create boundaries in lid driven cavity 
+ASCII
+
+DATASET POLYDATA
+POINTS 4 float
+0.0 0.0 0.0
+0.0 0.001 0.0
+0.001 0.001 0.0
+0.001 0.0 0.0
+
+
+LINES 4 12
+2 0 1
+2 1 2
+2 2 3
+2 3 0
